@@ -9,7 +9,9 @@ body {
   min-height: 100vh;
   background: #222;
   overflow: hidden;
+  /* use these cursor setting as you like it */
   /* cursor: none; */
+  cursor: pointer;
 }
 
 .text {
