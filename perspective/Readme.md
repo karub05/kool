@@ -1,4 +1,4 @@
-# this is an example showing how perspective works in css where we can see a parent and a child which is image and the image is animated showing persective ..
+# this is an example showing how perspective works in css where we can see a parent and a child which is div and image and the image is animated showing persective ..
 
 The perspective property in CSS is used to create a 3D perspective effect on elements and is essential for making 3D transformations like rotations appear more realistic. It defines the distance between the viewer and the 3D-transformed element, determining how much depth or "vanishing point" there is in the 3D space.
 
