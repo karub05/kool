@@ -10,17 +10,15 @@ function time() {
       a = 100;
       document.querySelector(`#loader h2`).innerHTML = a + `%`;
     }
-  }, 150); // 1 second = 1000 millisecond
+  }, 120); // 1 second = 1000 millisecond
 }
 
-tl.to("#loader h2", {
+tl.to("#loader", {
   delay: 0.3,
   onStart: time,
-});
-
-tl.to("#loader", {
+}).to("#loader", {
   top: `-100vh`,
   delay: 1,
-  duration: 1.2,
+  duration: 2,
   scrub: 2,
 });
