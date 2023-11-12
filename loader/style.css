@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#loader {
+  width: 100%;
+  height: 100vh;
+  background-color: blueviolet;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "badbad";
+  font-size: 50px;
+  z-index: 999;
+}
